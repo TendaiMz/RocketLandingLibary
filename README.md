@@ -8,8 +8,8 @@ perimeter/dimensions that can be described with coordinates (say x and y). Assum
 landing area has size of square 100x100 and landing platform has a size of a square 10x10 
 and it's top left corner starts at a position 5,5 (please assume that position 0,0 is located at 
 the top left corner of landing area and all positions are relative to it), library should work as 
-follow: 
-**
+follows: 
+***
 * if rocket asks for position 5,5 it replies `ok for landing` __
 * if rocket asks for position 16,15, it replies `out of platform`
 * if the rocket asks for a position that has previously been checked by another rocket
@@ -25,3 +25,4 @@ following features:
 * more than one rocket can land on the same platform at the same time and rockets
 need to have at least one unit separation between their landing positions
 * platform size can vary and should be configurable
+***
