@@ -10,7 +10,7 @@ and it's top left corner starts at a position 5,5 (please assume that position 0
 the top left corner of landing area and all positions are relative to it), library should work as 
 follows: 
 ***
-* if rocket asks for position 5,5 it replies `ok for landing` __
+* if rocket asks for position 5,5 it replies `ok for landing`
 * if rocket asks for position 16,15, it replies `out of platform`
 * if the rocket asks for a position that has previously been checked by another rocket
 (only last check counts), it replies with `clash`
